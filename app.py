@@ -26,7 +26,7 @@ def download_dir(local_path, s3_prefix):
                 s3.download_file(bucket_name, s3_key, local_file)
 
 
-st.title("Sentiment Analysis (Using Amazon S3)")
+st.title("Sentiment Analysis (Using Amazon EC2&S3)")
 
 button = st.button("Download Model")
 if button:
